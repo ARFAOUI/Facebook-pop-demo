@@ -48,7 +48,8 @@
     
     POPSpringAnimation *buttonAnimation = [POPSpringAnimation animation];
     
-    buttonAnimation.property = [POPAnimatableProperty propertyWithName:kPOPViewFrame]; /* here my choice was to animate the frame so i need to use kPOPViewFrame, here is the list of properties that you can animate :
+    buttonAnimation.property = [POPAnimatableProperty propertyWithName:kPOPViewFrame]; 
+    /* here my choice was to animate the frame so i need to use kPOPViewFrame, here is the list of properties that you can animate :
 
      kPOPLayerBackgroundColor;
      kPOPLayerBounds;
